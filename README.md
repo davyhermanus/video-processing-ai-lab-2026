@@ -12,14 +12,14 @@ Teaching materials for **Session 07 – Video Processing**: traffic monitoring, 
 | Smart CCTV + ByteTrack (event log) | [Open in Colab](https://colab.research.google.com/github/davyhermanus/video-processing-ai-lab-2026/blob/main/notebooks/04_Smart_CCTV_YOLO_ByteTrack.ipynb) | [Notebook](notebooks/04_Smart_CCTV_YOLO_ByteTrack.ipynb) |
 | Three-demos overview | [Open in Colab](https://colab.research.google.com/github/davyhermanus/video-processing-ai-lab-2026/blob/main/notebooks/05_Three_Demos_Overview.ipynb) | [Notebook](notebooks/05_Three_Demos_Overview.ipynb) |
 
-**Usage:** Open a notebook, select **Runtime → Run all**, and provide a video when asked. In notebook settings, select a GPU for YOLO if available. For self-contained demonstrations use the videos in `videos/source/`.
+**Usage:** Open a notebook, select **Runtime → Run all**, and provide a video when asked. In notebook settings, select a GPU for YOLO if available. For self-contained demonstrations use the videos in `source/`.
 
 ## Project structure
 
 - `slides/` — Session 07 lecture slides (PowerPoint)
 - `notebooks/` — runnable Google Colab notebooks including classical HOG and deep learning
-- `videos/source/` — source clips (traffic, aerial gathering, pedestrian CCTV)
-- `videos/results/` — recorded outputs from the practical sessions
+- `source/` — source clips (traffic, aerial gathering, pedestrian CCTV)
+- `results/` — recorded outputs from the practical sessions
 - `screenshots/` — sample result figures
 
 ## Methods and important limitations
@@ -33,10 +33,10 @@ Teaching materials for **Session 07 – Video Processing**: traffic monitoring, 
 
 | Use case | Source | Recorded result |
 |---|---|---|
-| Traffic | `videos/source/traffic.mp4` | `videos/results/traffic_result.mp4` |
-| Drone HOG | `videos/source/test_video.mp4` | `videos/results/drone_hog_result.mp4` |
-| Drone YOLO | `videos/source/test_video.mp4` | `videos/results/deobw_yolo_result.mp4` |
-| CCTV | `videos/source/vtest.avi` | `videos/results/smartcity-yolo-byte-track_result.mp4` |
+| Traffic | `source/traffic.mp4` | `results/traffic_result.mp4` |
+| Drone HOG | `source/test_video.mp4` | `results/drone_hog_result.mp4` |
+| Drone YOLO | `source/test_video.mp4` | `results/deobw_yolo_result.mp4` |
+| CCTV | `source/vtest.avi` | `results/smartcity-yolo-byte-track_result.mp4` |
 
 ## Credits, data rights, and privacy
 
